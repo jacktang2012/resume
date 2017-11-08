@@ -1,5 +1,10 @@
 body {
-	background-color: black;
+	background-color:white;
+	margin:0;
+}
+
+.header {
+	position:fixed;
 }
 .clearfix {
 	margin:0;
@@ -27,21 +32,32 @@ body {
 	font-weight:bold;
 	float:left;
 	border-bottom:3px solid transparent;
-	padding:5px 0;
+	padding:13px 0;
 	display: block;
 }
-.logo {	padding:15px;
+.logo {	padding:23px;
 	text-decoration: none;
 	font-family: "Arial Black";
-	padding-left:7px;
+	padding-left:17px;
+	margin-right:648px;
 }
 .logo .rs {
 	font-size: 24px;
-	color:rgb(232,103,103);	margin-right:4px;
-	
+	color:rgb(232,103,103);	margin-right:13px;
 }
 
 .logo .card {
 	color:rgb(154,157,162);
 	font-size: 24px;
+}
+.banner {
+  height: 515px;
+  background-image: url(./rs-cover.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.banner .mask {
+  height: 515px;
+  background-color: rgba(0, 0, 0, 0.8);
+
 }
